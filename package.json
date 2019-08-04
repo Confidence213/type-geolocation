@@ -2,9 +2,9 @@
   "name": "typescript-geolocation",
   "version": "1.0.0",
   "description": "Typescript application over design patterns following the Udemy Tutorial from @StephenGrider",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/silvestrevivo/typescript-geolocation/issues"
   },
-  "homepage": "https://github.com/silvestrevivo/typescript-geolocation#readme"
+  "homepage": "https://github.com/silvestrevivo/typescript-geolocation#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-clean-dist": "0.0.6",
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "typescript": "^3.5.3"
+  }
 }
