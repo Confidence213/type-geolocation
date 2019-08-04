@@ -1,0 +1,22 @@
+{
+  "name": "typescript-geolocation",
+  "version": "1.0.0",
+  "description": "Typescript application over design patterns following the Udemy Tutorial from @StephenGrider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/silvestrevivo/typescript-geolocation.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "@silvestrevivo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvestrevivo/typescript-geolocation/issues"
+  },
+  "homepage": "https://github.com/silvestrevivo/typescript-geolocation#readme"
+}
