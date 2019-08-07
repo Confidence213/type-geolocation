@@ -1,5 +1,6 @@
 import { User } from "./User";
 import { Company } from "./Company";
+import { CustomMap } from "./CustomMap";
 
 const user = new User();
 const company = new Company();
@@ -7,10 +8,8 @@ const company = new Company();
 console.log("user", user);
 console.log("company", company);
 
-const map = new google.maps.Map(document.getElementById('map'), {
-  zoom: 1,
-  center: {
-    lat: 0,
-    lng: 0
-  }
-});
+// we can create a map using directly new google.maps.Map(), but the problem
+// is that all the methods from google are exposed to be used by other developer
+// The idea is to create a CustomMap class from the original to isolate methods
+
+new CustomMap('map');
