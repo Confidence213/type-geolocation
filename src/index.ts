@@ -7,4 +7,10 @@ const company = new Company();
 console.log("user", user);
 console.log("company", company);
 
-google;
+const map = new google.maps.Map(document.getElementById('map'), {
+  zoom: 1,
+  center: {
+    lat: 0,
+    lng: 0
+  }
+});
