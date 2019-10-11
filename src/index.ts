@@ -12,4 +12,7 @@ console.log("company", company);
 // is that all the methods from google are exposed to be used by other developer
 // The idea is to create a CustomMap class from the original to isolate methods
 
-new CustomMap('map');
+const customMap = new CustomMap("map");
+
+customMap.addUserMarker(user);
+customMap.addCompanyMarker(company);
